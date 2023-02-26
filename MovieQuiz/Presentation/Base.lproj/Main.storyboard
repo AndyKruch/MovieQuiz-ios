@@ -34,20 +34,20 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вопрос:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wd-el-wgD" userLabel="Question Title Label">
                                                 <rect key="frame" x="0.0" y="0.0" width="319" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="YSDisplay-Medium" family="YS Display" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" name="ypWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="«1/10»" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPJ-rP-kCw" userLabel="Index Label">
                                                 <rect key="frame" x="319" y="0.0" width="55" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="YSDisplay-Medium" family="YS Display" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" name="ypWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Ni-2O-hOb" userLabel="Preview Image">
                                         <rect key="frame" x="0.0" y="43.5" width="374" height="561"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" name="ypWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="5Ni-2O-hOb" secondAttribute="height" multiplier="2:3" id="vlo-Y0-UUi"/>
                                         </constraints>
@@ -59,10 +59,11 @@
                                                 <rect key="frame" x="0.0" y="10" width="374" height="60"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="YSDisplay-Bold" family="YS Display" pointSize="23"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" name="ypWhite"/>
+                                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" name="black"/>
                                         <constraints>
                                             <constraint firstItem="GAm-Xf-ust" firstAttribute="leading" secondItem="THb-q2-hFx" secondAttribute="leading" constant="42" id="1M7-Q8-mIH"/>
                                             <constraint firstItem="GAm-Xf-ust" firstAttribute="top" secondItem="THb-q2-hFx" secondAttribute="top" constant="13" id="IeN-wM-8us"/>
@@ -75,11 +76,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0o-Pe-ys6" userLabel="noButton">
                                                 <rect key="frame" x="0.0" y="0.0" width="177" height="60"/>
-                                                <color key="backgroundColor" name="white"/>
+                                                <color key="backgroundColor" name="ypWhite"/>
                                                 <fontDescription key="fontDescription" name="YSDisplay-Medium" family="YS Display" pointSize="20"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Нет">
-                                                    <color key="titleColor" name="black"/>
+                                                    <color key="titleColor" name="ypBlack"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -92,11 +93,11 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvH-Tz-fvq" userLabel="yesButton">
                                                 <rect key="frame" x="197" y="0.0" width="177" height="60"/>
-                                                <color key="backgroundColor" name="white"/>
+                                                <color key="backgroundColor" name="ypWhite"/>
                                                 <fontDescription key="fontDescription" name="YSDisplay-Medium" family="YS Display" pointSize="20"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Да">
-                                                    <color key="titleColor" name="black"/>
+                                                    <color key="titleColor" name="ypBlack"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -116,7 +117,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="ypBlack"/>
                         <constraints>
                             <constraint firstItem="Wdj-Xy-unf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="77m-Hw-grw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wdj-Xy-unf" secondAttribute="trailing" constant="20" id="UGL-kL-6yf"/>
@@ -138,7 +139,10 @@
         <namedColor name="black">
             <color red="0.10199999809265137" green="0.10599999874830246" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="white">
+        <namedColor name="ypBlack">
+            <color red="0.10199999809265137" green="0.10599999874830246" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ypWhite">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>

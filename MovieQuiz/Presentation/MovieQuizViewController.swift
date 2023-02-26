@@ -37,20 +37,17 @@ final class MovieQuizViewController: UIViewController {
     private var currentQuestionIndex: Int = 0
     private var correctAnswers: Int = 0
     
+    
     @IBAction func yesButtonClicked(_ sender: UIButton) {
         let currentQuestion = questions[currentQuestionIndex]
         let givenAnswer = true
         showAnswerResult(isCorrect: givenAnswer == currentQuestion.correctAnswer)
-        print("User push Yes \(currentQuestionIndex)")
-        
     }
+    
     @IBAction func nobuttonClicked(_ sender: UIButton) {
         let currentQuestion = questions[currentQuestionIndex]
         let givenAnswer = false
         showAnswerResult(isCorrect: givenAnswer == currentQuestion.correctAnswer)
-        
-        print("User push No \(currentQuestionIndex)")
-        
     }
     
     @IBOutlet private var imageView: UIImageView!
@@ -66,7 +63,6 @@ final class MovieQuizViewController: UIViewController {
         imageView.image = step.image
         questionLabel.text = step.question
         counterLabel.text = step.questionNumber
-                                
     }
     
     private func show(quiz result: QuizResultsViewModel) {
@@ -111,13 +107,11 @@ final class MovieQuizViewController: UIViewController {
             currentQuestionIndex += 1
             let nextQuestion = questions[currentQuestionIndex]
             let viewModel = convert(model: nextQuestion)
-            
             show(quiz: viewModel)
         }
     }
     
     private func showAnswerResult(isCorrect: Bool) {
-        
         if isCorrect {
             correctAnswers += 1
         }
