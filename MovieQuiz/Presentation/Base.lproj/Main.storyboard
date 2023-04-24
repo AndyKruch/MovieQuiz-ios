@@ -91,7 +91,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="nobuttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abC-0b-DMy"/>
+                                                    <action selector="noButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pll-JB-WND"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvH-Tz-fvq" userLabel="yesButton">
@@ -138,7 +138,7 @@
                         <outlet property="counterLabel" destination="vPJ-rP-kCw" id="UXm-zu-NT5"/>
                         <outlet property="imageView" destination="5Ni-2O-hOb" id="hzg-CE-QOU"/>
                         <outlet property="noButton" destination="u0o-Pe-ys6" id="HGK-Pl-OgC"/>
-                        <outlet property="questionLabel" destination="GAm-Xf-ust" id="Asa-Vm-QJj"/>
+                        <outlet property="questionLabel" destination="GAm-Xf-ust" id="cbl-zF-oNr"/>
                         <outlet property="yesButton" destination="CvH-Tz-fvq" id="H2Q-wo-Mqu"/>
                     </connections>
                 </viewController>
